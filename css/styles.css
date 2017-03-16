@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    
+}
+.main-nav {
+    background-color: rgba(88, 75, 60, .5);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+
+.logo {
+    height: 60px;
+    
+}
+.nav-list{
+    float: right;
+    list-style: none;
+    
+}
+
+.nav-item {
+    float: left;
+    margin-left: 15px;
+}
+
+.navlink{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: rgb(88, 75, 60);
+}    
+
+.hero-background {
+    background-image: url("../images/ornella-binni-106372.jpg");
+    height: 500px;
+    margin-bottom: 25px;
+}
+.hero-text {
+    margin-top: 0px;
+    text-align: center;
+    font-style: Brush Script MT;
+}
+ section {
+     height: 450px;
+ }
+.column {
+    width: 30%;
+    float: left;
+    margin-left:25px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: olive;
+    margin-bottom: 20px;
+}
+.sad-face {
+    height: 60px;
+}
+.neutral-face {
+    height: 60px;
+}
+
+footer {
+    float: left;
+    background-color: rgba(88, 75, 60, .5);
+    border-top: 2px solid black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.social-links {
+    text-decoration: none;
+}
+.social-links > .fa {
+    color: blue;
+    font-size: 36px;
+    margin-left: 15px;
+}
+.social-links > .fa:hover {
+    color: #fff;
+}
+/****************** About styles********************/ 
+
+.about-container {
+    height: 500px;
+}
+.about-column {
+    width: 40%;
+    float: left;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+.bio-header {
+    margin-top: 50px;
+}
+/*********** Contact styles***********************/
+.main {
+    margin-top: 0;
+    padding-top: 100px;
+}
